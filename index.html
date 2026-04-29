@@ -3,16 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Welcome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      :root {
+        --isize: 100px;
+      }
+      img {
+        width: var(--isize);
+        height: var(--isize);
+        margin: 10px;
+        border-radius: 10px;
+      }
+      .imgleft {
+        float: left;
+      }
+      .imgright {
+        float: right;
+        border-radius: 50px;
+      }
+      /* .outfitfont {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 150;
+        font-style: normal;
+      } */
       h1 {
         text-align: center;
+        color: blueviolet;
+        font-family: monospace;
       }
-      div {
-        width: 50vw;
+      hr {
+        width: 80%;
+        height: 5px;
+        background-color: rgb(255, 192, 203);
+        border: 2px dashed rgb(215, 111, 129, 50%);
+        border-radius: 10px;
+      }
+      .container {
+        width: 90%;
+        /* 8 digit hex colour, last 2 digit determines the transparency */
+        background-color: #e3daff80;
         margin: auto;
-        background-color: aquamarine;
-        border: 3px dashed blueviolet;
+        border-radius: 6px;
+        padding: 20px;
+      }
+      p {
+        text-align: justify;
+      }
+      .plight {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 150;
+        font-style: normal;
+        background-image: linear-gradient(to right, #e9b9ff, #a0cfff);
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .pdark {
+        color: #ffffff;
+        background-image: radial-gradient(circle, #670594, #04386b);
+        border-radius: 10px;
         padding: 10px;
       }
     </style>
@@ -20,12 +76,83 @@
   <body>
     <h1>Welcome to my site</h1>
     <hr />
-    <div>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure labore,
-        nulla vitae, nobis adipisci tempore blanditiis dolor ipsum accusantium
-        alias officiis maxime optio harum enim aspernatur molestias nam voluptas
-        dignissimos.
+    <div class="container">
+      <p class="plight">
+        <img src="../resources/bunny.jpg" alt="" class="imgleft" />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        quaerat, ipsam perferendis, omnis adipisci, ad nobis repudiandae
+        veritatis aut hic consectetur cupiditate magnam odio magni? Nam animi ea
+        error voluptates. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Veniam ducimus nulla nostrum molestias nam, sapiente consequatur,
+        autem praesentium velit amet ipsam molestiae ab debitis reiciendis
+        tempore non et vero omnis, at dolorum? Laudantium aut consequuntur
+        magnam neque iure cumque labore enim placeat, commodi laboriosam in
+        voluptatibus earum delectus accusamus quidem! Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Modi quibusdam iure laudantium, saepe
+        dolor sint voluptatem? Architecto voluptate quos veritatis placeat!
+        Temporibus harum enim, molestiae ullam sint dicta distinctio voluptas
+        molestias est, impedit tenetur iusto, eligendi architecto voluptatibus
+        aliquid sed quidem vitae dolores consequatur ad? A quaerat cum quam
+        totam?
+      </p>
+      <hr />
+      <p class="pdark">
+        <img src="../resources/bunny2.jpg" alt="" class="imgright" />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, earum
+        itaque! Dolorem, velit. Dolore eaque cum eveniet, sed saepe fugit neque
+        non cupiditate! Fugit optio quasi, explicabo porro esse iste eius
+        ratione deserunt? Esse ea, facere culpa commodi tempore corrupti
+        distinctio exercitationem porro aperiam ipsa nisi pariatur iure numquam
+        accusamus voluptatibus repellat nobis ab? In ea, veritatis est id vero
+        reiciendis sed quae quo, obcaecati ratione optio ex mollitia.
+        Repellendus perspiciatis esse accusamus unde aut odio dolores ullam
+        beatae nemo, libero ex ducimus minus similique necessitatibus corporis
+        illo! Esse illo cupiditate optio eaque ipsa sint dolor totam accusamus
+        quidem harum! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Iusto quod similique tempore eius! Ad nihil sapiente provident aliquid
+        soluta quo mollitia accusantium eos quis dicta. Velit dolorum doloremque
+        perferendis alias. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Sequi facere eum voluptatum, commodi adipisci id culpa voluptas
+        alias minima a ad exercitationem neque? Odit ducimus quidem modi beatae
+        asperiores, illum officiis eius, itaque vitae earum natus! Rem officiis
+        ut amet voluptatum dignissimos, fugiat voluptatem dolore consequuntur
+        cumque! Ea, sequi nam.
+      </p>
+      <hr />
+      <p class="plight">
+        <img src="../resources/bunny2.jpg" alt="" class="imgleft" />
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex magni
+        consequuntur expedita tenetur delectus sit quibusdam, minima adipisci
+        voluptas nostrum praesentium tempora voluptatum sequi eligendi saepe ut
+        porro eum deserunt laborum impedit quos nesciunt id. Deleniti
+        praesentium saepe totam quam exercitationem voluptatem consequuntur hic,
+        laboriosam amet voluptate repudiandae ipsum officiis cupiditate officia.
+        Amet vitae quas dolorum dolore illum quasi nam nobis et culpa nulla. Et
+        laudantium asperiores optio, eius quidem corporis nam eveniet ex nemo
+        nobis! Minus eligendi architecto tempora debitis deleniti laboriosam
+        totam sit odit voluptate fuga saepe dolore corporis, fugit ad molestiae
+        tenetur, error possimus delectus, velit placeat itaque ipsa! Unde minima
+        corrupti perferendis quod itaque fuga velit debitis libero magnam fugit
+        iste rem alias dolorem totam eius quasi ipsa architecto maiores,
+        delectus aperiam dicta. Nobis recusandae provident quidem numquam optio!
+        Iste eius assumenda dolorem numquam qui non temporibus at, explicabo,
+        laudantium odit dicta ab doloremque distinctio eaque ratione soluta
+        omnis optio itaque, corporis reprehenderit totam. Aperiam distinctio aut
+        consectetur corporis explicabo. Facilis, quis voluptate eius qui quo
+        nemo aliquam porro, id expedita vero accusantium laudantium? Inventore
+        et iusto aut aliquam consequatur vero similique facere, voluptates nihil
+        perspiciatis, impedit, a ea soluta repellendus. At explicabo non nam
+        molestias nulla quo minus, iste pariatur quibusdam quos earum! Possimus
+        debitis officia perferendis aliquam iusto quos molestias earum voluptas
+        maxime facere dolores suscipit voluptate esse saepe nesciunt nihil non
+        quisquam placeat, rem quibusdam quo. Minima nemo doloremque harum
+        quibusdam expedita exercitationem dolores autem, sapiente quam ullam
+        labore libero in illum possimus, modi laudantium perferendis quidem,
+        obcaecati vel dignissimos aliquid alias delectus! Culpa quidem natus
+        repellat totam, sunt facilis obcaecati. Dicta nostrum at cupiditate
+        incidunt perferendis explicabo rerum nesciunt omnis iste cumque? Quod
+        dolor corrupti aliquam molestias neque eligendi obcaecati, tenetur, eius
+        soluta deserunt, amet fugit sint cum nemo odio error earum.
       </p>
     </div>
   </body>
